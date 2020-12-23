@@ -9,20 +9,44 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
+    @include respond(tab-port) {
+        
+        padding: 4rem;
+    padding-left: 7rem;
+    }
+    @include respond(phone) {
+        transform: skew(0);
+    }
     & > * {
         transform: skewX(12deg);
+
+        @include respond(phone) {
+            transform: skew(0);
+        }
     }
 
     &__shape {
-        width: 15rem;
+        
         position: relative;
-        height:15rem;
+        overflow: hidden;
         float: left;
+        border-radius: 50%;
+        
+        transform: translateX(-3rem) skewX(12deg);;
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+            -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        width: 15rem;
+        height:15rem;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
-        -webkit-clip-path: circle(50% at 50% 50%);
-        clip-path: circle(50% at 50% 50%);
-        transform: translateX(-3rem) skewX(12deg);;
+        border-radius: none;
+        
+
+          }
+        @include respond(phone) {
+            transform: translateX(-3rem) skew(0);
+        }
     }
     &__image {
         height: 100%;
@@ -32,6 +56,9 @@
     }
     &text {
         transform: skewX(12deg);
+        @include respond(phone) {
+            transform: skew(0);
+        }
     }
 
     &__caption {

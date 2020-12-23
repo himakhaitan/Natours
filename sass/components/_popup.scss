@@ -9,6 +9,14 @@
     opacity: 0;
     visibility: hidden;
     transition: all .3s;
+    
+   
+
+    @supports(-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: rgba($color-black, .4);
+    }
 
     &__content {
         @include absCenter;
@@ -22,11 +30,24 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @include respond(phone) {
+            display: block;
+        }
     }
 
     &__left {
         width: 33.333333%;
         display: table-cell;
+        
+        @include respond(tab-port) {
+            vertical-align: middle;
+        }
+
+        @include respond(phone) {
+            width: 100%;
+            display: block;
+        }
     }
 
     &__right {
@@ -57,6 +78,16 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port) {
+            font-size: 1.2rem;
+            margin-bottom: 2.7rem;
+        }
+
+        @include respond (phone) {
+            -moz-column-count: 1;
+            column-count: 1;
+        }
     }
 
     //Open states
@@ -86,6 +117,18 @@
 
         &:hover {
             color: $color-primary;
+        }
+
+        @include respond (phone) {
+            background-color: $color-white;
+            border-radius: 50%;
+            padding: 1rem 1.6rem;
+        }
+    }
+
+    &__img--2{
+        @include respond (phone) {
+            display: none;
         }
     }
 }
