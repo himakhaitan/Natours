@@ -14,10 +14,10 @@ This tour booking portal is made to give user an experience to book the tours an
 
 ***
 
-- [NODE](https://nodejs.org/en/ "NODE")
-- [HTML](https://www.w3schools.com/html/ "HTML")
-- [CSS](https://www.w3schools.com/css/ "CSS")
-- [SASS](https://sass-lang.com/ "SASS")
+- ![NODE](https://img.shields.io/badge/NODE-%F0%9F%A4%8D-orange "NODE")
+- ![HTML](https://img.shields.io/badge/HTML-%F0%9F%A4%8D-lightgrey "HTML")
+- ![CSS](https://img.shields.io/badge/CSS-%F0%9F%A4%8D-red "CSS")
+- ![SASS](https://img.shields.io/badge/SASS-%F0%9F%A4%8D-orange "SASS")
 
 #### Installation
 
