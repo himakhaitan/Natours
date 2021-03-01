@@ -2,7 +2,7 @@
 
 ***
 
-![Project Banner](img\#7ed56f.png "Project Banner")
+![Project Banner](./img/#7ed56f.png "Project Banner")
 
 #### Introduction
 
@@ -49,4 +49,4 @@ i.e To Concat, Prefix & Compress CSS
 
 `npm run build:css`
 
-> Happily turning COFFEE into CODE.
+> Happily turning COFFEE into CODE!
