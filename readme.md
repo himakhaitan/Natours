@@ -2,7 +2,7 @@
 
 ***
 
-<img src="./img/profile.jpg" width="350" alt="Project Profile">
+<img src="./img/profile.jpg" alt="Project Profile">
 
 #### Introduction
 
