@@ -2,7 +2,7 @@
 
 ***
 
-![Project Banner](./img/#7ed56f.png "Project Banner")
+![Project Banner](./img/#7ed56f.png?raw=true "Project Banner")
 
 #### Introduction
 
