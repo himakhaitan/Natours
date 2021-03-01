@@ -2,7 +2,7 @@
 
 ***
 
-![Project Banner](https://github.com/himakhaitan/Natours/blob/main/profile.jpg?raw=true "Project Banner")
+<img src="./img/profile.jpg" width="350" alt="Project Profile">
 
 #### Introduction
 
