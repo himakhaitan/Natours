@@ -2,7 +2,7 @@
 
 ***
 
-![Project Banner](./img/#7ed56f.png?raw=true "Project Banner")
+![Project Banner](https://github.com/himakhaitan/Natours/blob/main/profile.jpg?raw=true "Project Banner")
 
 #### Introduction
 
