@@ -1,8 +1,7 @@
 ## Natours Project
 
 ***
-
-<img src="./img/profile.jpg" alt="Project Profile">
+![Profile Image](https://github.com/himakhaitan/Natours/blob/main/img/profile.png)
 
 #### Introduction
 
